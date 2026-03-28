@@ -20,7 +20,7 @@ from p2pfl.utils.utils import set_standalone_settings, wait_convergence, wait_to
 # CONFIG
 # ========================
 NODES = 12
-ROUNDS = 50
+ROUNDS = 100
 EPOCHS = 1
 BATCH_SIZE = 32
 
@@ -34,10 +34,10 @@ BASE_CONFIG = {
 
 DP_CONFIG = {
     "dp": {
-        "clip_norm": 5000,
+        "clip_norm": 10000,
         "epsilon": 20.0,
         "delta": 1e-5,
-        "noise_type": "gaussian",
+        "noise_type": "laplace",
     }
 }
 

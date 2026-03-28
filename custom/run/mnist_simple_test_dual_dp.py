@@ -1,15 +1,14 @@
 import time
 import json
-import torch
-from pathlib import Path
 
+from custom.utils import build_output_dir, dp_settings
+from p2pfl.communication.protocols.protobuff.memory import MemoryCommunicationProtocol
+# from p2pfl.examples.mnist.model.mlp_pytorch import model_build_fn
+from custom.model.grad_mlp import model_build_fn
+from custom.aggregators.grad_fedavg import FedAvgWithGrad
 from custom.component.dual_dimensional_evaluation import DualDimensionalEvaluator
 from custom.component.dual_mode_noise_selector import DualModeNoiseSelector
 from custom.component.privacy_budget_allocator import PrivacyBudgetAllocator
-from custom.utils import build_output_dir, my_settings
-from p2pfl.communication.protocols.protobuff.memory import MemoryCommunicationProtocol
-from p2pfl.examples.mnist.model.mlp_pytorch import model_build_fn
-from p2pfl.learning.aggregators.fedavg import FedAvg
 from p2pfl.learning.dataset.p2pfl_dataset import P2PFLDataset
 from p2pfl.learning.dataset.partition_strategies import RandomIIDPartitionStrategy
 from p2pfl.management.logger import logger
@@ -30,7 +29,7 @@ BATCH_SIZE = 32
 
 DUAL_DP_CONFIG = {
     "dual_mode_dp": {
-        "clip_norm": 1.0,
+        "clip_norm": 8000,
         "delta": 1e-5,
     }
 }
@@ -44,7 +43,7 @@ EVALUATOR_CONFIG = {
 
 ALLOCATOR_CONFIG = {
     "epsilon_base": 30,
-    "epsilon_min": 8,
+    "epsilon_min": 10,
     "lambda_protection": 4.0,
 }
 
@@ -67,7 +66,7 @@ OUTPUT_DIR = build_output_dir(
 )
 
 def main():
-    my_settings()
+    dp_settings()
     start_time = time.time()
 
     # ========================
@@ -86,7 +85,7 @@ def main():
         node = Node(
              model_build_fn(compression=DUAL_DP_CONFIG),
             partitions[i],
-            aggregator=FedAvg(),
+            aggregator=FedAvgWithGrad(),
             protocol=MemoryCommunicationProtocol(),
             addr=f"node-{i}",
             evaluator=DualDimensionalEvaluator(**EVALUATOR_CONFIG),

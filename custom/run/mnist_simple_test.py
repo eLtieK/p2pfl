@@ -18,8 +18,8 @@ from p2pfl.utils.utils import set_standalone_settings, wait_convergence, wait_to
 # ========================
 # CONFIG
 # ========================
-NODES = 4
-ROUNDS = 4
+NODES = 12
+ROUNDS = 100
 EPOCHS = 1
 BATCH_SIZE = 32
 
