@@ -6,6 +6,7 @@ from .lzma_strategy import LZMACompressor
 from .quantization_strategy import PTQuantization
 from .topk_strategy import TopKSparsification
 from .zlib_strategy import ZlibCompressor
+from custom.component.dual_switch_dp_stragegy import DualSwitchDPCompressor
 
 # All strategies need to be registered for the manager.
 COMPRESSION_STRATEGIES_REGISTRY = {
@@ -16,4 +17,5 @@ COMPRESSION_STRATEGIES_REGISTRY = {
     "lzma": LZMACompressor,
     "dp": DifferentialPrivacyCompressor,
     "local_dp": LocalDPCompressor,
+    "dual_mode_dp": DualSwitchDPCompressor
 }

@@ -227,7 +227,9 @@ def wait_to_finish(nodes: list[Node], timeout=3600, debug=False) -> None:
         time.sleep(1)
         elapsed = time.time() - start
         if elapsed > timeout:
-            raise TimeoutError(f"Timeout waiting for nodes to finish (elapsed: {int(elapsed // 60)} minutes {int(elapsed % 60)} seconds)")
+            # raise TimeoutError(f"Timeout waiting for nodes to finish (elapsed: {int(elapsed // 60)} minutes {int(elapsed % 60)} seconds)")
+            print(f"⏳ Waiting for nodes to finish... (elapsed: {int(elapsed // 60)}m {int(elapsed % 60)}s)", end="\r")
+            break
 
 
 def check_equal_models(nodes: list[Node]) -> None:

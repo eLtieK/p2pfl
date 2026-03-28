@@ -67,7 +67,22 @@ class NodeState:
         # For PreSendModelCommand state
         self.sending_models: dict[str, dict[str, float]] = {}
         self.sending_models_lock = threading.Lock()
-
+        
+        # Score for dual switch
+        self.score_S: dict[str, int] = {}
+        self.score_C: dict[str, int] = {}
+        self.score_GSI: dict[str, int] = {}
+        
+        # Behavior indicator history
+        self.behavior_indicator_history: list[float] = []
+        
+        # Gradients history
+        self.local_gradient_history = []
+        self.global_gradient_history = []
+        
+        self.local_loss_history = []
+        self.global_loss_history = []
+        
         # Locks
         self.train_set_votes_lock = threading.Lock()
         self.start_thread_lock = threading.Lock()
@@ -76,7 +91,9 @@ class NodeState:
         self.model_initialized_lock.acquire()
         self.aggregated_model_event = threading.Event()
         self.aggregated_model_event.set()
-
+        
+        self.score_lock = threading.Lock()
+        
     @property
     def round(self) -> int | None:
         """Get the round."""

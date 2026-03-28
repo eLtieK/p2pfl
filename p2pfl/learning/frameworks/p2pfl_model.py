@@ -19,12 +19,15 @@
 """P2PFL model abstraction."""
 
 import copy
+import pickle
 from typing import Any
 
 import numpy as np
 
+from custom.compression.simple_compression_manager import SimpleCompressionManager
 from p2pfl.learning.compression.manager import CompressionManager
 from p2pfl.learning.frameworks.exceptions import DecodingParamsError
+from p2pfl.management.logger import logger
 
 
 class P2PFLModel:
@@ -84,7 +87,32 @@ class P2PFLModel:
         if params is None:
             params = self.get_parameters()
 
+        self.additional_info["apply_compression"] = False
         return CompressionManager.apply(params, self.additional_info, self.compression)
+    
+    def encode_gradients(self, gradients: list[np.ndarray] | None = None) -> bytes:
+        """
+        Encode the gradients of the model.
+
+        Args:
+            gradients: The gradients of the model.
+
+        """
+        if gradients is None:
+            gradients = self.get_gradients()
+         
+        self.additional_info["apply_compression"] = True   
+        return SimpleCompressionManager.apply(gradients, self.additional_info, self.compression)
+    
+    def get_gradients(self) -> list[np.ndarray]:
+        """
+        Get gradients of the model.
+
+        Returns:
+            List of gradients (same shape as parameters)
+        """
+        raise NotImplementedError
+
 
     def decode_parameters(self, data: bytes) -> tuple[list[np.ndarray], dict[str, Any]]:
         """
@@ -100,6 +128,16 @@ class P2PFLModel:
             raise DecodingParamsError("Error decoding parameters") from e
 
     def get_parameters(self) -> list[np.ndarray]:
+        """
+        Get the parameters of the model.
+
+        Returns:
+            The parameters of the model
+
+        """
+        raise NotImplementedError
+    
+    def get_last_parameters(self) -> list[np.ndarray]:
         """
         Get the parameters of the model.
 
@@ -181,7 +219,16 @@ class P2PFLModel:
             A copy of the model.
 
         """
-        return self.__class__(copy.deepcopy(self.model), **kwargs)
+        # return self.__class__(copy.deepcopy(self.model), **kwargs)
+        return self.__class__(
+            copy.deepcopy(self.model),
+            # params=self.get_parameters(),
+            # num_samples=self.num_samples,
+            # contributors=copy.deepcopy(self.contributors),
+            additional_info=copy.deepcopy(self.additional_info),
+            compression=copy.deepcopy(self.compression),
+            **kwargs
+        )
 
     def get_framework(self) -> str:
         """

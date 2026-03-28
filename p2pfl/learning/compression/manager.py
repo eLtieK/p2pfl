@@ -25,7 +25,7 @@ import numpy as np
 
 from p2pfl.learning.compression import COMPRESSION_STRATEGIES_REGISTRY
 from p2pfl.learning.compression.base_compression_strategy import ByteCompressor
-
+from p2pfl.management.logger import logger
 
 class CompressionManager:
     """Manager for compression strategies."""
@@ -47,6 +47,7 @@ class CompressionManager:
 
         """
         # Init
+        # logger.info("[Compression]", "Init")
         registry = CompressionManager.get_registry()
         applied_techniques = []
         byte_compressor: ByteCompressor | None = None
@@ -64,7 +65,19 @@ class CompressionManager:
                 byte_compressor = instance
                 encoder_key = name
             else:
-                params, compression_settings = instance.apply_strategy(params, **fn_params)
+                # logger.info("[Compression]", f" 🚀 Applying: {name}")
+                # logger.info("[Compression]", f"additional_info keys: {list(additional_info.keys())}")
+                if ("apply_compression" in additional_info) and not additional_info["apply_compression"]:
+                    # logger.info("[Compression]", f" ⚠️ Skipping compression for {name} due to additional_info flag")
+                    continue
+                
+                params, compression_settings = instance.apply_strategy(
+                    params,
+                    additional_info=additional_info,
+                    **fn_params
+                )
+                # logger.info("[Compression]", f" ✅ Done: {name} | settings={compression_settings}")
+                
                 applied_techniques.append([name, compression_settings])
 
         # Build data transfer dict

@@ -79,10 +79,15 @@ docs = [
     "sphinx-design>=0.6.1,<0.7",
 ]
 
+my-fix = [
+    "yappi>=1.6.0"
+]
+
 [tool.uv]
 default-groups = [
     "dev",
     "docs",
+    "my-fix"
 ]
 
 [build-system]

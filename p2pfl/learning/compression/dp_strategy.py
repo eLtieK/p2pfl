@@ -132,10 +132,21 @@ class DifferentialPrivacyCompressor(TensorCompressor):
         else:
             raise ValueError("The parameter 'noise_type' must be 'gaussian' or 'laplace'")
         return mech, scale
+    
+    def _get_noise_scale(self, noise_type, clip_norm, epsilon, delta):
+        if noise_type == "laplace":
+            scale = clip_norm / epsilon
+        elif noise_type == "gaussian":
+            scale = clip_norm * np.sqrt(2 * np.log(1.25 / delta)) / epsilon
+        else:
+            raise ValueError("noise_type must be 'gaussian' or 'laplace'")
+        return scale
+
 
     def apply_strategy(
         self,
         params: list[np.ndarray],
+        additional_info: dict | None = None,
         clip_norm: float = 1.0,
         epsilon: float = 3.0,
         delta: float = 1e-5,
@@ -178,8 +189,15 @@ class DifferentialPrivacyCompressor(TensorCompressor):
             clipped_flat_update = flat_update.copy()
 
         # Step 3: Get noise mechanism and add noise
-        mech, scale = self._get_noise_mechanism(noise_type, clip_norm, epsilon, delta, clipped_flat_update.size)
-        noisy_flat_update = mech(clipped_flat_update.tolist())
+        # mech, scale = self._get_noise_mechanism(noise_type, clip_norm, epsilon, delta, clipped_flat_update.size)
+        # noisy_flat_update = mech(clipped_flat_update.tolist())
+        
+        scale = self._get_noise_scale(noise_type, clip_norm, epsilon, delta)
+        if noise_type == "gaussian":
+            noise = np.random.normal(0, scale, size=flat_update.shape)
+        else:  # laplace
+            noise = np.random.laplace(0, scale, size=flat_update.shape)
+        noisy_flat_update = clipped_flat_update + noise
 
         # Unflatten the noisy update
         dp_params = []

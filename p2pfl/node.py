@@ -25,6 +25,7 @@ import time
 import traceback
 from typing import Any
 
+from custom.component.dual_mode_noise_selector import DualModeNoiseSelector
 from p2pfl.communication.commands.message.metrics_command import MetricsCommand
 from p2pfl.communication.commands.message.model_initialized_command import ModelInitializedCommand
 from p2pfl.communication.commands.message.models_agregated_command import ModelsAggregatedCommand
@@ -50,6 +51,10 @@ from p2pfl.management.logger import logger
 from p2pfl.node_state import NodeState
 from p2pfl.settings import Settings
 from p2pfl.stages.workflows import LearningWorkflow
+
+from custom.command.node_score_command import NodeScoreCommand
+from custom.component.dual_dimensional_evaluation import DualDimensionalEvaluator
+from custom.component.privacy_budget_allocator import PrivacyBudgetAllocator
 
 # Disbalbe grpc log (pytorch causes warnings)
 if logger.get_level_name(logger.get_level()) != "DEBUG":
@@ -96,6 +101,9 @@ class Node:
         learner: Learner | None = None,
         aggregator: Aggregator | None = None,
         protocol: CommunicationProtocol | None = None,
+        evaluator: DualDimensionalEvaluator | None = None,
+        allocator: PrivacyBudgetAllocator | None = None,
+        noise_selector: DualModeNoiseSelector | None = None,
         **kwargs,
     ) -> None:
         """Initialize a node."""
@@ -115,6 +123,18 @@ class Node:
         self.learner.set_model(model)
         self.learner.set_data(data)
         self.learner.indicate_aggregator(self.aggregator)
+        
+        # Dual dimension evaluator
+        self.evaluator = DualDimensionalEvaluator() if evaluator is None else evaluator
+        self.evaluator.set_addr(self.addr)
+        
+        # Privacy budget allocator
+        self.allocator = PrivacyBudgetAllocator() if allocator is None else allocator
+        self.allocator.set_addr(self.addr)
+        
+        # Dual mode noise selector
+        self.noise_selector = DualModeNoiseSelector() if noise_selector is None else noise_selector
+        self.noise_selector.set_addr(self.addr)
 
         # State
         self.__running = False
@@ -136,6 +156,7 @@ class Node:
             PartialModelCommand(self.state, self.stop, self.aggregator, self._communication_protocol, self.learner),
             FullModelCommand(self.state, self.stop, self.aggregator, self.learner),
             PreSendModelCommand(self.state),
+            NodeScoreCommand(self.state)
         ]
         self._communication_protocol.add_command(commands)
 
@@ -425,6 +446,9 @@ class Node:
                 communication_protocol=self._communication_protocol,
                 aggregator=self.aggregator,
                 generator=random.Random(Settings.general.SEED),
+                evaluator = self.evaluator,
+                allocator = self.allocator,
+                noise_selector = self.noise_selector
             )
 
         except Exception as e:
