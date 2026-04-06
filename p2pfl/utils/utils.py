@@ -216,20 +216,26 @@ def wait_to_finish(nodes: list[Node], timeout=3600, debug=False) -> None:
     """
     # Wait until all nodes finish the workflow
     start = time.time()
-    while True:
-        if debug:
-            logger.info(
-                "Waiting for nodes to finish",
-                str([n.learning_workflow.finished for n in nodes]),
-            )
-        if all(n.learning_workflow.finished for n in nodes):
-            break
-        time.sleep(1)
-        elapsed = time.time() - start
-        if elapsed > timeout:
-            # raise TimeoutError(f"Timeout waiting for nodes to finish (elapsed: {int(elapsed // 60)} minutes {int(elapsed % 60)} seconds)")
-            print(f"⏳ Waiting for nodes to finish... (elapsed: {int(elapsed // 60)}m {int(elapsed % 60)}s)", end="\r")
-            break
+    try:
+        while True:
+            if debug:
+                logger.info(
+                    "Waiting for nodes to finish",
+                    str([n.learning_workflow.finished for n in nodes]),
+                )
+
+            if all(n.learning_workflow.finished for n in nodes):
+                break
+
+            time.sleep(1)
+
+            elapsed = time.time() - start
+            if elapsed > timeout:
+                print(f"⏳ Waiting for nodes... ({int(elapsed)}s)", end="\r")
+                break
+
+    except KeyboardInterrupt:
+        print("\n⏭️ Skip waiting (user interrupted)")
 
 
 def check_equal_models(nodes: list[Node]) -> None:

@@ -1,5 +1,6 @@
 import numpy as np
 from p2pfl.utils.node_component import NodeComponent
+from p2pfl.management.logger import logger
 
 
 class DualDimensionalEvaluator(NodeComponent):
@@ -11,10 +12,6 @@ class DualDimensionalEvaluator(NodeComponent):
         self.k = k
         self.eps = eps
 
-    # =============================
-    # PUBLIC API
-    # =============================
-
     def evaluate(
         self,
         current_grad,
@@ -24,11 +21,9 @@ class DualDimensionalEvaluator(NodeComponent):
         prev_global_loss,
         global_grad,
     ):
-        """
-        Compute S_i^t and C_i^t
-        """
 
         if len(grad_history) == 0:
+            logger.info(self.addr, "⚠️ No grad history → return 0")
             return 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
         M, DI, S = self.__compute_sensitivity(current_grad, grad_history)
@@ -40,6 +35,12 @@ class DualDimensionalEvaluator(NodeComponent):
             prev_global_loss,
             global_grad,
             [self._gradient_variance(g) for g in grad_history]
+        )
+
+        logger.info(self.addr,
+            f"📊 Dual Eval | "
+            f"M={M:.4f}, DI={DI:.4f} → S={S:.4f} | "
+            f"LIR={LIR:.4f}, GSI={GSI:.4f} → C={C:.4f}"
         )
 
         return M, DI, S, LIR, GSI, C
@@ -59,51 +60,75 @@ class DualDimensionalEvaluator(NodeComponent):
         mu = self._moving_avg(history_norms)
         sigma = self._moving_std(history_norms)
 
-        M = self._magnitude_instability(g_norm, mu, sigma)
+        logger.info(self.addr,
+            f"📐 Norm Stats | g_norm={g_norm:.6f} | history_norms[:3]={history_norms[:3]}"
+        )
 
+        M = self._magnitude_instability(g_norm, mu, sigma)
         DI = self._direction_instability(grad, grad_history[-self.k:])
+
+        logger.info(self.addr,
+            f"📐 Sensitivity Detail | "
+            f"|g_norm - μ|={abs(g_norm - mu):.6f}, σ={sigma:.6f}"
+        )
+
+        logger.info(self.addr,
+            f"📐 Sensitivity | "
+            f"M={M:.4f}, DI={DI:.4f}, S={self.alpha*M + self.beta*DI:.4f}"
+        )
 
         return M, DI, self.alpha * M + self.beta * DI
 
-    # Algorithm line 6
     def _gradient_norm(self, grad):
-
         flat = self._flatten_grad(grad)
-        return np.linalg.norm(flat)
+        norm = np.linalg.norm(flat)
+        # logger.info(self.addr, f"🔢 Gradient Norm | size={flat.shape}, norm={norm:.6f}")
+        return norm
 
-    # Algorithm line 7
     def _moving_avg(self, values):
+        avg = np.mean(values)
+        # logger.info(self.addr, f"📊 Moving Avg | values[:3]={values[:3]}, mean={avg:.6f}")
+        return avg
 
-        return np.mean(values)
-
-    # Algorithm line 8
     def _moving_std(self, values):
+        std = np.std(values)
+        # logger.info(self.addr, f"📊 Moving Std | std={std:.6f}")
+        return std
 
-        return np.std(values)
-
-    # Algorithm line 9
     def _magnitude_instability(self, g_norm, mu, sigma):
+        raw = abs(g_norm - mu) / (sigma + self.eps)
+        val = np.tanh(raw)
+        logger.info(self.addr,
+            f"📈 Magnitude Instability | raw={raw:.6f} → tanh={val:.6f}"
+        )
+        return val
 
-        return np.tanh(abs(g_norm - mu) / (sigma + self.eps))
-
-    # Algorithm line 10
     def _direction_instability(self, grad, grad_history):
 
         g1 = self._flatten_grad(grad)
-
         cos_vals = []
 
-        for gh in grad_history:
-
+        for i, gh in enumerate(grad_history):
             g2 = self._flatten_grad(gh)
 
             cos = np.dot(g1, g2) / (
                 np.linalg.norm(g1) * np.linalg.norm(g2)
             )
 
+            logger.info(self.addr,
+                f"🧭 Cos[{i}] | dot={np.dot(g1,g2):.6f}, "
+                f"||g1||={np.linalg.norm(g1):.6f}, ||g2||={np.linalg.norm(g2):.6f}, cos={cos:.6f}"
+            )
+
             cos_vals.append(abs(cos))
 
-        return 1 - np.mean(cos_vals)
+        di = 1 - np.mean(cos_vals)
+
+        logger.info(self.addr,
+            f"🧭 Direction | mean|cos|={np.mean(cos_vals):.6f} → DI={di:.6f}"
+        )
+
+        return di
 
     # =============================
     # CONTRIBUTION
@@ -130,6 +155,10 @@ class DualDimensionalEvaluator(NodeComponent):
         mu_sigma = self._moving_avg(variance_history[-self.k:])
         sigma_sigma = self._moving_std(variance_history[-self.k:])
 
+        logger.info(self.addr,
+            f"📉 Variance Stats | σ_t={sigma_t:.6f}, μσ={mu_sigma:.6f}, σσ={sigma_sigma:.6f}"
+        )
+
         GSI = self._gradient_stability_indicator(
             grad,
             global_grad,
@@ -138,22 +167,33 @@ class DualDimensionalEvaluator(NodeComponent):
             sigma_sigma
         )
 
-        return LIR, GSI, np.maximum(0, LIR) * GSI
+        C = np.maximum(0, LIR) * GSI
 
-    # Algorithm line 14
-    def _loss_improvement_ratio(self, prev_local, current, prev_global):
-
-        return (prev_local - current) / (
-            max(prev_global, prev_local) + self.eps
+        logger.info(self.addr,
+            f"📉 Contribution | LIR={LIR:.6f}, GSI={GSI:.6f}, C={C:.6f}"
         )
 
-    # Algorithm line 15
+        return LIR, GSI, C
+
+    def _loss_improvement_ratio(self, prev_local, current, prev_global):
+        numerator = prev_local - current
+        denominator = max(prev_global, prev_local) + self.eps
+        val = numerator / denominator
+
+        logger.info(self.addr,
+            f"📉 LIR Detail | numerator={numerator:.6f}, denominator={denominator:.6f}, LIR={val:.6f}"
+        )
+
+        return val
+
     def _gradient_variance(self, grad):
-
         flat = self._flatten_grad(grad)
-        return np.var(flat)
+        var = np.var(flat)
+        logger.info(self.addr,
+            f"📊 Gradient Variance | size={flat.shape}, var={var:.6f}"
+        )
+        return var
 
-    # Algorithm line 19
     def _gradient_stability_indicator(
         self,
         grad,
@@ -166,21 +206,31 @@ class DualDimensionalEvaluator(NodeComponent):
         g1 = self._flatten_grad(grad)
         g2 = self._flatten_grad(global_grad)
 
-        cos_sim = np.dot(g1, g2) / (
-            np.linalg.norm(g1) * np.linalg.norm(g2) + self.eps
+        dot = np.dot(g1, g2)
+        norm1 = np.linalg.norm(g1)
+        norm2 = np.linalg.norm(g2)
+
+        cos_sim = dot / (norm1 * norm2)
+
+        raw = abs(sigma_t - mu_sigma) / (sigma_sigma + self.eps)
+        stability = np.exp(-self.gamma * raw)
+
+        logger.info(self.addr,
+            f"🧩 GSI Detail | dot={dot:.6f}, ||g1||={norm1:.6f}, ||g2||={norm2:.6f}, cos={cos_sim:.6f}"
         )
 
-        stability = np.exp(
-            -self.gamma * abs(sigma_t - mu_sigma) /
-            (sigma_sigma + self.eps)
+        logger.info(self.addr,
+            f"🧩 Stability Detail | raw={raw:.6f}, exp={stability:.6f}"
         )
 
-        return cos_sim * stability
+        gsi = cos_sim * stability
 
-    # =============================
-    # UTIL
-    # =============================
+        logger.info(self.addr,
+            f"🧩 GSI | cos_sim={cos_sim:.6f}, stability={stability:.6f} → GSI={gsi:.6f}"
+        )
+
+        return gsi
 
     def _flatten_grad(self, grad):
-
-        return np.concatenate([g.flatten() for g in grad])
+        flat = np.concatenate([g.flatten() for g in grad])
+        return flat

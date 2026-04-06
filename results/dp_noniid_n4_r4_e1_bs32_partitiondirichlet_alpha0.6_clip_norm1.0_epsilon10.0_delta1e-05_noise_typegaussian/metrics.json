@@ -1,0 +1,282 @@
+[
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 15.532868385314941
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 3056.560302734375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 3009.74169921875
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 1544.8031005859375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 2089.279052734375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.060081928968429565
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.15065999329090118
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.023668639361858368
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.08966773003339767
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.06690942496061325
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 64668.12890625
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 3733.877197265625
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 1917.56689453125
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 1921.00830078125
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 1173.32470703125
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.0033319450449198484
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.03831736743450165
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.09912536293268204
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.040816325694322586
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.29862555861473083
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 52954.17578125
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 15931.94921875
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 9266.1611328125
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 2393.2275390625
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 9446.734375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.006947282236069441
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.12178177386522293
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.06538618355989456
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.11360850185155869
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.07560277730226517
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 43063.9609375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 4853.265625
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 7311.2177734375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 3936.21630859375
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 7425.26171875
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.012859559617936611
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.11945854127407074
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.03384094685316086
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.0307952631264925
+    },
+    {
+        "experiment": "experiment-1774191761.8200636",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.1153976321220398
+    }
+]

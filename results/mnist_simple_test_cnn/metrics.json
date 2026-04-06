@@ -1,0 +1,282 @@
+[
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 7.5373430252075195
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.13315798342227936
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 0.06064596399664879
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 0.04458565264940262
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 0.036561019718647
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.09239999949932098
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9639999866485596
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.9819999933242798
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.9868000149726868
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.9868000149726868
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 7.549794673919678
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.16012457013130188
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 0.09635519981384277
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 0.08088981360197067
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 0.07129298895597458
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.0835999995470047
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9552000164985657
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.9711999893188477
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.972000002861023
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.9783999919891357
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 7.578197479248047
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.14246828854084015
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 0.07598502933979034
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 0.060934923589229584
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 0.05383266508579254
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.07159999758005142
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9639999866485596
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.9764000177383423
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.9787999987602234
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.9828000068664551
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 7.385496139526367
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.13251084089279175
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 0.06614160537719727
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 0.05092781037092209
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 0.04243309423327446
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.09239999949932098
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9592000246047974
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.9771999716758728
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.9824000000953674
+    },
+    {
+        "experiment": "experiment-1773841826.4984438",
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.9847999811172485
+    }
+]

@@ -65,6 +65,7 @@ class TrainStage(Stage):
             raise Exception("Invalid parameters on TrainStage.")
 
         try:
+            TrainStage.__reset_scores(state)
             check_early_stop(state)
 
             # Set Models To Aggregate
@@ -425,3 +426,13 @@ class TrainStage(Stage):
             or len(state.score_C) < len(state.train_set)
         ):
             time.sleep(1)
+            
+    @staticmethod
+    def __reset_scores(state: NodeState):
+        """Reset all node scores at the beginning of each round."""
+        with state.score_lock:
+            state.score_S.clear()
+            state.score_C.clear()
+            state.score_GSI.clear()
+        
+        logger.info(state.addr, "🔄 Scores reset for new round")

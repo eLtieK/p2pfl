@@ -179,7 +179,12 @@ class DifferentialPrivacyCompressor(TensorCompressor):
 
         # Step 1: Compute global L2 norm across all parameters
         flat_update = np.concatenate([p.flatten() for p in params])
-        total_norm = np.linalg.norm(flat_update)
+        
+        # if noise_type == "laplace":
+        #     total_norm = np.linalg.norm(flat_update, ord=1)  # L1
+        # else:
+        #     total_norm = np.linalg.norm(flat_update, ord=2)  # L2
+        total_norm = np.linalg.norm(flat_update, ord=2)  # L2
 
         # Step 2: Clip if necessary
         if total_norm > clip_norm:

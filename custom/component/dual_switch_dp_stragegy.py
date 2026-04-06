@@ -20,6 +20,75 @@ class DualSwitchDPCompressor(TensorCompressor):
         else:
             raise ValueError("noise_type must be 'gaussian' or 'laplace'")
         return scale
+    
+    def _get_noise_scale_dual(
+        self,
+        noise_type,
+        clip_norm,
+        epsilon,
+        alpha,
+        S_i,
+        C_i,
+        S_all,
+        C_all,
+        stability_constant=1e-8,
+    ):
+        max_S = max(S_all) if len(S_all) > 0 else 0
+        max_C = max(C_all) if len(C_all) > 0 else 0
+        
+        delta1_f = clip_norm
+        delta2_f = clip_norm
+
+        # =========================
+        # Step 1: compute b_i (Laplace)
+        # =========================
+        modulation_C = 1 + (C_i / (max_C + stability_constant))
+        b_i = (delta1_f / (epsilon + stability_constant)) * modulation_C
+
+        # =========================
+        # Step 2: compute rho_i from b_i
+        # =========================
+        rho_i = (alpha * (delta1_f ** 2)) / (2 * (b_i ** 2) + stability_constant)
+
+
+        # =========================
+        # Gaussian (σ)
+        # =========================
+        if noise_type == "gaussian":
+            
+            numerator = 2 * alpha * (delta2_f ** 2)
+            denominator = 2 * alpha * rho_i - 1
+
+            base_sigma2 = numerator / denominator
+
+            modulation = 1 - (S_i / (max_S + stability_constant))
+
+            sigma2 = base_sigma2 * modulation
+            sigma = np.sqrt(max(sigma2, 0.0))
+
+            return sigma
+
+        # =========================
+        # Laplace (b)
+        # =========================
+        elif noise_type == "laplace":
+            return b_i
+
+        else:
+            raise ValueError("noise_type must be 'gaussian' or 'laplace'")
+        
+    def _compute_rho_from_laplace(
+        self,
+        b_i,
+        clip_norm,
+        alpha,
+        stability_constant=1e-8,
+    ):
+        delta1_f = clip_norm
+
+        rho = (alpha * (delta1_f ** 2)) / (2 * (b_i ** 2) + stability_constant)
+
+        return rho
 
     def apply_strategy(
         self,
@@ -28,6 +97,7 @@ class DualSwitchDPCompressor(TensorCompressor):
         clip_norm: float = 1.0,
         delta: float = 1e-5,
         alpha: float = 1,
+        scale_mode: str = "standard", 
         stability_constant: float = 1e-6,
     ) -> tuple[list[np.ndarray], dict]:
         if not params:
@@ -60,7 +130,7 @@ class DualSwitchDPCompressor(TensorCompressor):
 
         # Step 1: Flatten all params and compute global L2 norm
         flat_update = np.concatenate([p.flatten() for p in params])
-        total_norm = np.linalg.norm(flat_update)
+        total_norm = np.linalg.norm(flat_update, ord=2)  # L2
 
         # Step 2: Clip if needed
         if total_norm > clip_norm:
@@ -79,7 +149,28 @@ class DualSwitchDPCompressor(TensorCompressor):
         #     vec_len=clipped_flat_update.size,
         # )
         # noisy_flat_update = mech(clipped_flat_update.tolist())
-        scale = self._get_noise_scale(selected_noise_type, clip_norm, epsilon, delta)
+        if scale_mode == "standard":
+            scale = self._get_noise_scale(
+                selected_noise_type,
+                clip_norm,
+                epsilon,
+                delta
+            )
+        elif scale_mode == "dual":
+            scale = self._get_noise_scale_dual(
+                noise_type=selected_noise_type,
+                clip_norm=clip_norm,
+                epsilon=epsilon,
+                alpha=alpha,
+                S_i=S_i,
+                C_i=C_i,
+                S_all=S_all,
+                C_all=C_all,
+                stability_constant=stability_constant,
+            )
+        else:
+            raise ValueError("scale_mode must be 'standard' or 'dual'")
+        
         if selected_noise_type == "gaussian":
             noise = np.random.normal(0, scale, size=flat_update.shape)
         else:  # laplace

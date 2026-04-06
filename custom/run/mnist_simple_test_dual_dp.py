@@ -29,8 +29,9 @@ BATCH_SIZE = 32
 
 DUAL_DP_CONFIG = {
     "dual_mode_dp": {
-        "clip_norm": 8000,
+        "clip_norm": 10000,
         "delta": 1e-5,
+        "scale_mode": "dual",  # "standard" or "dual"
     }
 }
 
@@ -38,13 +39,13 @@ EVALUATOR_CONFIG = {
     "alpha": 0.5,
     "beta": 0.5,
     "gamma": 1.0,
-    "k": 10,
+    "k": 5,
 }
 
 ALLOCATOR_CONFIG = {
-    "epsilon_base": 30,
-    "epsilon_min": 10,
-    "lambda_protection": 4.0,
+    "epsilon_base": 50,
+    "epsilon_min": 20,
+    "lambda_protection": 1,
 }
 
 NOISE_SELECTOR_CONFIG = {
@@ -83,7 +84,7 @@ def main():
     nodes: list[Node] = []
     for i in range(NODES):
         node = Node(
-             model_build_fn(compression=DUAL_DP_CONFIG),
+            model_build_fn(compression=DUAL_DP_CONFIG),
             partitions[i],
             aggregator=FedAvgWithGrad(),
             protocol=MemoryCommunicationProtocol(),
