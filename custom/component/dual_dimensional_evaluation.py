@@ -189,9 +189,9 @@ class DualDimensionalEvaluator(NodeComponent):
     def _gradient_variance(self, grad):
         flat = self._flatten_grad(grad)
         var = np.var(flat)
-        logger.info(self.addr,
-            f"📊 Gradient Variance | size={flat.shape}, var={var:.6f}"
-        )
+        # logger.info(self.addr,
+        #     f"📊 Gradient Variance | size={flat.shape}, var={var:.6f}"
+        # )
         return var
 
     def _gradient_stability_indicator(

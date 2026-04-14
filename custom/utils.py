@@ -47,11 +47,12 @@ def flatten_config(cfg: dict):
             flat[k] = v
     return flat
 
-def build_output_dir(base_cfg, extra_cfgs=None, prefix="exp"):
+def build_output_dir(base_cfg, extra_cfgs=None, prefix="exp", root_dir="results"):
     """
     base_cfg: config chung (nodes, rounds,...)
     extra_cfgs: danh sách config bổ sung (DP / Dual DP)
     prefix: tên experiment (dp / dual_dp / baseline)
+    root_dir: thư mục gốc (results / results_attacks / ...)
     """
 
     parts = [
@@ -75,4 +76,4 @@ def build_output_dir(base_cfg, extra_cfgs=None, prefix="exp"):
 
     name = "_".join(parts)
 
-    return Path("results") / name
+    return Path(root_dir) / name

@@ -25,7 +25,9 @@ import time
 import traceback
 from typing import Any
 
+from custom.aggregators.grad_fedavg import FedAvgWithGrad
 from custom.component.dual_mode_noise_selector import DualModeNoiseSelector
+from custom.component.gradient_inversion_attack import GradientInversionAttack
 from p2pfl.communication.commands.message.metrics_command import MetricsCommand
 from p2pfl.communication.commands.message.model_initialized_command import ModelInitializedCommand
 from p2pfl.communication.commands.message.models_agregated_command import ModelsAggregatedCommand
@@ -104,6 +106,7 @@ class Node:
         evaluator: DualDimensionalEvaluator | None = None,
         allocator: PrivacyBudgetAllocator | None = None,
         noise_selector: DualModeNoiseSelector | None = None,
+        attack: GradientInversionAttack | None = None,
         **kwargs,
     ) -> None:
         """Initialize a node."""
@@ -124,21 +127,34 @@ class Node:
         self.learner.set_data(data)
         self.learner.indicate_aggregator(self.aggregator)
         
-        # Dual dimension evaluator
-        self.evaluator = DualDimensionalEvaluator() if evaluator is None else evaluator
-        self.evaluator.set_addr(self.addr)
-        
+        # Evaluator
+        self.evaluator = evaluator
+        if self.evaluator is not None:
+            self.evaluator.set_addr(self.addr)
+
         # Privacy budget allocator
-        self.allocator = PrivacyBudgetAllocator() if allocator is None else allocator
-        self.allocator.set_addr(self.addr)
+        self.allocator = allocator
+        if self.allocator is not None:
+            self.allocator.set_addr(self.addr)
+
+        # Noise selector
+        self.noise_selector = noise_selector
+        if self.noise_selector is not None:
+            self.noise_selector.set_addr(self.addr)
         
-        # Dual mode noise selector
-        self.noise_selector = DualModeNoiseSelector() if noise_selector is None else noise_selector
-        self.noise_selector.set_addr(self.addr)
+        # Gradient inversion attack
+        if attack is not None:
+            self.attack = attack
+            self.attack.set_addr(self.addr)
 
         # State
         self.__running = False
         self.state = NodeState(self.addr)
+        
+        # Set state and attack in aggregator if it is FedAvgWithGrad
+        if isinstance(self.aggregator, FedAvgWithGrad):
+            if attack is not None: self.aggregator.set_attacker(self.attack)
+            self.aggregator.set_state(self.state)
 
         # Workflow
         self.learning_workflow = LearningWorkflow()

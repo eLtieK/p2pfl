@@ -63,9 +63,13 @@ class TrainStage(Stage):
         """Execute the stage."""
         if state is None or communication_protocol is None or aggregator is None or learner is None:
             raise Exception("Invalid parameters on TrainStage.")
+        
+        use_dual = True if evaluator and allocator and noise_selector else False
 
         try:
-            TrainStage.__reset_scores(state)
+            if use_dual: 
+                TrainStage.__reset_scores(state)
+                
             check_early_stop(state)
 
             # Set Models To Aggregate
@@ -88,72 +92,74 @@ class TrainStage(Stage):
             
             # Local gradient and loss
             new_local_weights = learner.get_model().get_parameters()
-            
             TrainStage.__save_local_gradient(state, last_global_weights, new_local_weights, learner)
             TrainStage.__save_local_loss(state, learner)
 
             check_early_stop(state)
             
             # Dual evaluation
-            M, DI, S, LIR, GSI, C = TrainStage.__dual_evaluation(state, evaluator)
-            
-            with state.score_lock:
-                state.score_S[state.addr] = S
-                state.score_C[state.addr] = C
-                state.score_GSI[state.addr] = GSI
-            
-            communication_protocol.broadcast(
-                communication_protocol.build_msg(
-                    NodeScoreCommand.get_name(),
-                    [str(S), str(C), str(GSI)],
-                    round=state.round
+            if use_dual: 
+                M, DI, S, LIR, GSI, C = TrainStage.__dual_evaluation(state, evaluator)
+                
+                with state.score_lock:
+                    state.score_S[state.addr] = S
+                    state.score_C[state.addr] = C
+                    state.score_GSI[state.addr] = GSI
+                
+                communication_protocol.broadcast(
+                    communication_protocol.build_msg(
+                        NodeScoreCommand.get_name(),
+                        [str(S), str(C), str(GSI)],
+                        round=state.round
+                    )
                 )
-            )
-            
-            # Wait score from net work
-            TrainStage.__wait_scores_from_network(state)
-            
-            # Privacy budget allocator
-            epsilon = allocator.allocate(
-                self_S=S,
-                self_C=C,
-                self_GSI=GSI,
-                self_LIR=LIR,
-                all_S=list(state.score_S.values()),
-                all_C=list(state.score_C.values()),
-                all_GSI=list(state.score_GSI.values())
-            )
-            
-            logger.info(state.addr, f"🔬 Epsilon Evaluated: {epsilon}")
-            
-            # Select noise type
-            indicator = noise_selector.compute_indicator(
-                S_all=list(state.score_S.values()),
-                C_all=list(state.score_C.values())
-            )
-            
-            noise_type, phi_drift = noise_selector.select_mode(
-                indicator=indicator,
-                indicator_history=state.behavior_indicator_history
-            )
-            
-            state.behavior_indicator_history.append(indicator)
+                
+                # Wait score from net work
+                TrainStage.__wait_scores_from_network(state)
+                
+                # Privacy budget allocator
+                epsilon = allocator.allocate(
+                    self_S=S,
+                    self_C=C,
+                    self_GSI=GSI,
+                    self_LIR=LIR,
+                    all_S=list(state.score_S.values()),
+                    all_C=list(state.score_C.values()),
+                    all_GSI=list(state.score_GSI.values())
+                )
+                
+                logger.info(state.addr, f"🔬 Epsilon Evaluated: {epsilon}")
+                
+                # Select noise type
+                indicator = noise_selector.compute_indicator(
+                    S_all=list(state.score_S.values()),
+                    C_all=list(state.score_C.values())
+                )
+                
+                noise_type, phi_drift = noise_selector.select_mode(
+                    indicator=indicator,
+                    indicator_history=state.behavior_indicator_history
+                )
+                
+                state.behavior_indicator_history.append(indicator)
 
-            logger.info(
-                state.addr,
-                f"🔀 Noise selected: {noise_type} | indicator={indicator:.6f} | threshold={phi_drift:.6f}"
-            )
+                logger.info(
+                    state.addr,
+                    f"🔀 Noise selected: {noise_type} | indicator={indicator:.6f} | threshold={phi_drift:.6f}"
+                )
             
             # Add info for compression
             model = learner.get_model()
-            TrainStage.__add_info_for_compression(
-                state=state,
-                S=S,
-                C=C,
-                epsilon=epsilon,
-                noise_type=noise_type,
-                model=model
-            )
+            
+            if use_dual: 
+                TrainStage.__add_info_for_compression(
+                    state=state,
+                    S=S,
+                    C=C,
+                    epsilon=epsilon,
+                    noise_type=noise_type,
+                    model=model
+                )
 
             # Aggregate Model
             models_added = aggregator.add_model(learner.get_model())

@@ -2,6 +2,8 @@ import time
 import json
 from pathlib import Path
 
+import torch
+
 from custom.utils import build_output_dir, dp_settings
 from p2pfl.communication.protocols.protobuff.memory import MemoryCommunicationProtocol
 # from p2pfl.examples.mnist.model.mlp_pytorch import model_build_fn
@@ -20,7 +22,7 @@ from p2pfl.utils.utils import set_standalone_settings, wait_convergence, wait_to
 # CONFIG
 # ========================
 NODES = 12
-ROUNDS = 100
+ROUNDS = 50
 EPOCHS = 1
 BATCH_SIZE = 32
 
@@ -37,7 +39,7 @@ DP_CONFIG = {
         "clip_norm": 10000,
         "epsilon": 20.0,
         "delta": 1e-5,
-        "noise_type": "laplace",
+        "noise_type": "gaussian",
     }
 }
 
@@ -94,6 +96,11 @@ def main():
     # SAVE RESULTS
     # ========================
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Save model
+    torch_model = nodes[0].get_model().get_model()
+    torch.save(torch_model.state_dict(), OUTPUT_DIR / "final_model.pt")
+
 
     global_logs = logger.get_global_logs()
     if global_logs:

@@ -2,17 +2,29 @@
 
 import numpy as np
 
+from custom.component.gradient_inversion_attack import GradientInversionAttack
 from p2pfl.learning.aggregators.aggregator import Aggregator, NoModelsToAggregateError
 from p2pfl.learning.frameworks.p2pfl_model import P2PFLModel
+from p2pfl.management.logger import logger
+from p2pfl.node_state import NodeState
 
 
 class FedAvgWithGrad(Aggregator):
 
     SUPPORTS_PARTIAL_AGGREGATION: bool = True
 
-    def __init__(self, disable_partial_aggregation: bool = False) -> None:
+    def __init__(self, attacker: GradientInversionAttack =None, state: NodeState = None, disable_partial_aggregation: bool = False) -> None:
         """Initialize the aggregator."""
         super().__init__(disable_partial_aggregation=disable_partial_aggregation)
+        self.attacker = attacker
+        self.state = state
+        self._is_final_round: bool = False
+        
+    def set_attacker(self, attacker):
+        self.attacker = attacker
+        
+    def set_state(self, state):
+        self.state = state
 
     def aggregate(self, models: list[P2PFLModel]) -> P2PFLModel:
         """
@@ -40,9 +52,32 @@ class FedAvgWithGrad(Aggregator):
         accum = [np.zeros_like(g) for g in first_grads]
 
         # Add weighted models
-        for m in models:
+        
+        if self.attacker is not None:
+            round_idx = self.state.round if self.state else -1
+            total_rounds = self.state.total_rounds if self.state else -1
+            
+            if total_rounds > 0 and round_idx == total_rounds - 1:
+                self._is_final_round = True
+            
+        for idx, m in enumerate(models):
             grads = m.encode_gradients()
             weight = m.get_num_samples()
+            
+            if self.attacker is not None and self._is_final_round:
+                try:
+                    logger.info(self.addr, "🚨 Attacking gradients from client")
+
+                    self.attacker.reconstruct(
+                        model=m.model,          # model local
+                        gradients=grads,        # gradient thật
+                        gt_shape=(1, 28, 28),
+                        num_classes=10,
+                        client_id=self.addr + "_" + str(idx)
+                    )
+
+                except Exception as e:
+                    logger.error(self.addr, f"[ATTACK ERROR] {e}")
 
             for i, g in enumerate(grads):
                 if g is None:
@@ -65,7 +100,7 @@ class FedAvgWithGrad(Aggregator):
                 new_weights.append(w)
             else:
                 new_weights.append(w - lr * g)
-
+                
         # Get contributors
         contributors: list[str] = []
         for m in models:
