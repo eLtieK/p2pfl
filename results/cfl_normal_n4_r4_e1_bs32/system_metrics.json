@@ -1,0 +1,46 @@
+[
+    {
+        "node": "node-0",
+        "cpu_avg": 155.47123287671232,
+        "gpu_avg": 0.0,
+        "gpu_mem_avg": 0.0,
+        "samples": 146,
+        "bytes_sent": 0,
+        "msgs_sent": 0,
+        "bytes_received": 0,
+        "msgs_received": 0
+    },
+    {
+        "node": "node-1",
+        "cpu_avg": 155.48150684931505,
+        "gpu_avg": 0.0,
+        "gpu_mem_avg": 0.0,
+        "samples": 146,
+        "bytes_sent": 0,
+        "msgs_sent": 0,
+        "bytes_received": 0,
+        "msgs_received": 0
+    },
+    {
+        "node": "node-2",
+        "cpu_avg": 155.47260273972603,
+        "gpu_avg": 0.0,
+        "gpu_mem_avg": 0.0,
+        "samples": 146,
+        "bytes_sent": 0,
+        "msgs_sent": 0,
+        "bytes_received": 0,
+        "msgs_received": 0
+    },
+    {
+        "node": "node-3",
+        "cpu_avg": 155.46712328767123,
+        "gpu_avg": 0.0,
+        "gpu_mem_avg": 0.0,
+        "samples": 146,
+        "bytes_sent": 0,
+        "msgs_sent": 0,
+        "bytes_received": 0,
+        "msgs_received": 0
+    }
+]

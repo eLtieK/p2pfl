@@ -40,7 +40,6 @@ class CommunicationProtocol(ABC, NodeComponent):
         """Initialize the communication protocol."""
         # (addr) Super
         NodeComponent.__init__(self)
-
     @abstractmethod
     def start(self) -> None:
         """Start the communication protocol."""
@@ -196,3 +195,15 @@ class CommunicationProtocol(ABC, NodeComponent):
 
         """
         pass
+    
+    def get_communication_stats(self) -> dict[str, int]:
+        """
+        Get communication statistics of the node.
+
+        Returns:
+            Dictionary with total bytes and messages sent.
+        """
+        return {
+            "bytes_sent": self.total_bytes_sent,
+            "msgs_sent": self.total_msgs_sent,
+        }

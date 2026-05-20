@@ -63,21 +63,6 @@ class FedAvgWithGrad(Aggregator):
         for idx, m in enumerate(models):
             grads = m.encode_gradients()
             weight = m.get_num_samples()
-            
-            if self.attacker is not None and self._is_final_round:
-                try:
-                    logger.info(self.addr, "🚨 Attacking gradients from client")
-
-                    self.attacker.reconstruct(
-                        model=m.model,          # model local
-                        gradients=grads,        # gradient thật
-                        gt_shape=(1, 28, 28),
-                        num_classes=10,
-                        client_id=self.addr + "_" + str(idx)
-                    )
-
-                except Exception as e:
-                    logger.error(self.addr, f"[ATTACK ERROR] {e}")
 
             for i, g in enumerate(grads):
                 if g is None:

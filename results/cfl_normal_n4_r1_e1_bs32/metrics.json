@@ -1,0 +1,98 @@
+[
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 12.798468589782715
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.33414942026138306
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.11919999867677689
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9056000113487244
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 12.694064140319824
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.35830381512641907
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.1080000028014183
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9075999855995178
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 12.36679458618164
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.34632453322410583
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.12439999729394913
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9111999869346619
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 12.478119850158691
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 0.3307240605354309
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.12399999797344208
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.9064000248908997
+    }
+]

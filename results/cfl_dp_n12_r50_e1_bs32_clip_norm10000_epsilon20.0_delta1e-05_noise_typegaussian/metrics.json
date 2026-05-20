@@ -1,0 +1,7070 @@
+[
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.28373146057129
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 88353.0390625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 278236.75
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 257606.4375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 340551.21875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 404866.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 338206.875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 483893.90625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 511419.53125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 433471.46875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 531820.5
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 566167.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 695469.4375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 966828.25
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 745954.1875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 814926.375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 778497.875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 737457.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1080118.25
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 890044.625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 1016356.4375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 1000764.25
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1164568.625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 1088389.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1069531.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1330718.625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1486375.375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1474624.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1320535.75
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1336011.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1580628.875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1264708.625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1285207.75
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1508675.625
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1754858.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1529885.5
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1666775.375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1595159.5
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1600767.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1592240.75
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1782950.375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1704466.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1853425.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1700874.0
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1652232.875
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1589583.125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1891053.375
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2039490.5
+    },
+    {
+        "node": "node-11",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2265974.5
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.1284513771533966
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.08883553743362427
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.12965185940265656
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.20768307149410248
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.24969987571239471
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.2977190911769867
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.4501800835132599
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3733493387699127
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.38175269961357117
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.48739495873451233
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.48019206523895264
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5162065029144287
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5282112956047058
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.47539016604423523
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.5090035796165466
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.523409366607666
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5930371880531311
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6374549865722656
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.490996390581131
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5894357562065125
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6002401113510132
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6302521228790283
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5618247389793396
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6374549865722656
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6638655662536621
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6170468330383301
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.6134454011917114
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.6158463358879089
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6650660037994385
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6710684299468994
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6362544894218445
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6902760863304138
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6650660037994385
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6614645719528198
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.662665069103241
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6878751516342163
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6902760863304138
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6758703589439392
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.6986794471740723
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.6950780153274536
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7262905240058899
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7154861688613892
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7070828080177307
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7478991746902466
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7478991746902466
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7286914587020874
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7298919558525085
+    },
+    {
+        "node": "node-11",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.7010804414749146
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.518260955810547
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 89454.046875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 302874.84375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 259922.09375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 342320.65625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 395853.34375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 316162.15625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 512582.84375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 477301.53125
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 424002.125
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 467164.46875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 558099.4375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 636550.1875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 923589.1875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 653679.1875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 759258.3125
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 759443.9375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 711292.0
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1055611.5
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 878300.0625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 930847.375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 1017206.6875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1059298.875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 945044.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 999277.5
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1171500.625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1463730.125
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1466063.5
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1181888.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1364164.0
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1506381.375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1182032.75
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1226668.875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1435171.625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1444756.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1474855.875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1656988.125
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1562421.625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1506952.5
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1528577.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1528813.625
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1500695.0
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1466062.375
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1493901.0
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1574974.75
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1606549.75
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1921226.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2066213.875
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2147127.5
+    },
+    {
+        "node": "node-0",
+        "metric": "test_loss",
+        "round": 49,
+        "value": 2234954.25
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.11390887200832367
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.0983213409781456
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.13189448416233063
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.21223022043704987
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.2541966438293457
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.31534773111343384
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.46043166518211365
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3549160659313202
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.38129496574401855
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.48441246151924133
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4808153510093689
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.4940047860145569
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5455635786056519
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.5179855823516846
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.5227817893028259
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5371702909469604
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.6007194519042969
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6450839042663574
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5119904279708862
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5923261642456055
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6139088869094849
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6115108132362366
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5911270976066589
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6354916095733643
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6546762585639954
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6402877569198608
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5995203852653503
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.6019184589385986
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6606714725494385
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6534771919250488
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6294963955879211
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6990407705307007
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6858513355255127
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6474820375442505
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6714628338813782
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6834532618522644
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6690647602081299
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6810551285743713
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6726618409156799
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.701438844203949
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7182254195213318
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7374100685119629
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7254196405410767
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7194244861602783
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7410072088241577
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.743405282497406
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.6942446231842041
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7110311985015869
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6930455565452576
+    },
+    {
+        "node": "node-0",
+        "metric": "test_metric",
+        "round": 49,
+        "value": 0.7050359845161438
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.7764949798584
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 89319.453125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 291909.46875
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 262721.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 342870.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 418621.03125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 338981.90625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 494042.9375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 503569.5625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 477718.21875
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 510915.65625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 547101.4375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 661106.75
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 963194.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 734312.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 882443.375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 833060.4375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 748230.75
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 957288.4375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 892312.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 939577.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 955043.125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1002239.0
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 848926.3125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1028851.75
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1135700.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1349248.875
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1454824.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1240568.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1472408.75
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1561723.875
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1184383.875
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1245798.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1457058.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1480602.125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1501068.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1710259.0
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1629402.125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1622340.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1554637.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1720371.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1724529.75
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1762814.125
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1747846.625
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1800185.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1876722.375
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 2005831.0
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2259307.25
+    },
+    {
+        "node": "node-1",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2236168.5
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.10191846638917923
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.10071942210197449
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.1450839340686798
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.20623500645160675
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.23021583259105682
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.31534773111343384
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.44124701619148254
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.36690646409988403
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.384892076253891
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.4616307020187378
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.49040767550468445
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5275779366493225
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5275779366493225
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4940047860145569
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.4892086386680603
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5023980736732483
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5671463012695312
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6270983219146729
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5059952139854431
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5887290239334106
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6426858305931091
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6079136729240417
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.6139088869094849
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6762589812278748
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.678657054901123
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6510791182518005
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.6187050342559814
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5959232449531555
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6714628338813782
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6522781848907471
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6270983219146729
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6954436302185059
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6798561215400696
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6726618409156799
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6894484162330627
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6942446231842041
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6834532618522644
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6906474828720093
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.678657054901123
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7218225598335266
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.6834532618522644
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7002398371696472
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.6942446231842041
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7170263528823853
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7218225598335266
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7410072088241577
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7170263528823853
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7038369178771973
+    },
+    {
+        "node": "node-1",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.7038369178771973
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 18.59270668029785
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 88942.4765625
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 276718.25
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 247679.5625
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 338027.28125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 376938.4375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 331823.71875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 463021.84375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 485131.15625
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 438420.84375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 516089.59375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 557691.625
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 646992.75
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 933361.875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 663689.125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 761876.9375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 746305.9375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 726118.9375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1035448.8125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 870009.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 920675.6875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 957378.125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1081272.75
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 949059.3125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 989831.6875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1259030.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1357793.875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1416180.5
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1219820.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1389657.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1702769.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1202681.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1222334.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1399466.625
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1425152.25
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1533343.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1667937.125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1529883.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1518609.75
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1367128.25
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1539025.75
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1473818.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1611748.25
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1620042.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1484082.125
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1574901.375
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1962167.875
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1951057.0
+    },
+    {
+        "node": "node-2",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2129722.5
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.08393285423517227
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.09112709760665894
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.1366906464099884
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.22062350809574127
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.26618704199790955
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.3249400556087494
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.44964027404785156
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.4208633005619049
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.38609111309051514
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.47961631417274475
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4532374143600464
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5143885016441345
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5383692979812622
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.5083932876586914
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.5035971403121948
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5227817893028259
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.6306954622268677
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6342925429344177
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5359712243080139
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.6091127395629883
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6270983219146729
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6151078939437866
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5911270976066589
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6654676198959351
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6762589812278748
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.633093535900116
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.61031174659729
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5995203852653503
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.678657054901123
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6666666865348816
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6402877569198608
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.701438844203949
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6846522688865662
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6618704795837402
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6906474828720093
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6738609075546265
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.675059974193573
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6990407705307007
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6966426968574524
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7170263528823853
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7122302055358887
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7230215668678284
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7122302055358887
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.714628279209137
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7446042895317078
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.743405282497406
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7182254195213318
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7254196405410767
+    },
+    {
+        "node": "node-2",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.7050359845161438
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.536026000976562
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 90886.40625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 284058.0625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 259530.34375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 350699.96875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 389898.59375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 310722.59375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 508718.15625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 492204.15625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 426184.25
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 507679.03125
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 552588.0625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 584058.375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 830481.625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 670767.375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 847019.75
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 749660.5625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 741979.875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1071018.0
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 895153.8125
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 923005.0625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 923473.3125
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 983990.125
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 889198.5625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 911404.8125
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1072774.875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1404671.75
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1364395.375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1211567.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1354062.625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1478266.0
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1254880.875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1381650.25
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1492475.75
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1658345.25
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1634724.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1661521.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1554353.875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1520738.625
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1481490.75
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1476299.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1646421.75
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1662993.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1618614.5
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1694183.875
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1774400.0
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 2093239.375
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2119194.0
+    },
+    {
+        "node": "node-3",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2402910.25
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.10431654751300812
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.09352517873048782
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.11630695313215256
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.2158273309469223
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.2625899314880371
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.3081534802913666
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.440047949552536
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.371702641248703
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.3824940025806427
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.4748201370239258
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4568345248699188
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.49040767550468445
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.528777003288269
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.5071942210197449
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.4916067123413086
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.513189435005188
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5899280309677124
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.5923261642456055
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.4916067123413086
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5695443749427795
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.623501181602478
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.619904100894928
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5983213186264038
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6546762585639954
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6918465495109558
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6426858305931091
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5875299572944641
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.6139088869094849
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6834532618522644
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6642686128616333
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6486810445785522
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6834532618522644
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6486810445785522
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6534771919250488
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6594724059104919
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6738609075546265
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6738609075546265
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6798561215400696
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6642686128616333
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.6942446231842041
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7026379108428955
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7110311985015869
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7098321318626404
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7002398371696472
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7134292721748352
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7314148545265198
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7038369178771973
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7110311985015869
+    },
+    {
+        "node": "node-3",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6702637672424316
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.24310302734375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 88978.234375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 288261.0
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 250431.234375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 340710.875
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 415536.125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 363488.9375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 527001.0625
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 521088.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 458278.03125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 524952.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 586746.4375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 658635.6875
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 955934.375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 743012.8125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 832133.6875
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 778263.8125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 724200.1875
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1128970.875
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 940424.0625
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 999210.8125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 1011655.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1086027.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 926336.5625
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 988351.4375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1164917.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1353390.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1458590.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1206964.625
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1257755.375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1471379.375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1147256.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1184019.0
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1423196.0
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1514921.375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1427407.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1680148.375
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1582930.0
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1518851.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1372134.125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1541686.25
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1603028.25
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1728586.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1685268.625
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1659785.125
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1729782.0
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1989788.75
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2022849.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2125072.5
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.12965185940265656
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.10204081982374191
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.12244898080825806
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.20168067514896393
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.22088836133480072
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.304921954870224
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.42016807198524475
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3541416525840759
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.3589435815811157
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.4717887043952942
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.44777911901474
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5018007159233093
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5198079347610474
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4885954260826111
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.476590633392334
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.49699878692626953
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5846338272094727
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6302521228790283
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5078031420707703
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5942376852035522
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.605042040348053
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6122449040412903
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5762304663658142
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.65666264295578
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6530612111091614
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6266506314277649
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5834333896636963
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5906362533569336
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6698679327964783
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6650660037994385
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6290516257286072
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6950780153274536
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6854742169380188
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6530612111091614
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6794717907905579
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6974790096282959
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6926770806312561
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.732292890548706
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.720288097858429
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.727491021156311
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7142857313156128
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7130852341651917
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7298919558525085
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7250900268554688
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.727491021156311
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7166866660118103
+    },
+    {
+        "node": "node-6",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.709483802318573
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 18.14191246032715
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 90461.5546875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 277845.625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 265406.5
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 338074.59375
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 410574.53125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 310225.8125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 480657.65625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 491828.09375
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 438924.78125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 492263.0625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 575835.75
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 640731.1875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 930858.5625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 726145.75
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 736955.25
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 679232.25
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 664354.5625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1022475.6875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 810790.1875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 789178.0625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 794067.3125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 996527.9375
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 854463.125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 882901.5625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1119676.875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1325085.0
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1334559.625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1132483.5
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1344680.625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1606655.5
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1271003.875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1117730.875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1349186.75
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1446020.0
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1545796.5
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1551112.0
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1393636.625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1355240.125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1386852.5
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1581431.25
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1402624.0
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1489371.25
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1492881.875
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1638444.125
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1508529.625
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1739970.375
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1883034.0
+    },
+    {
+        "node": "node-5",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2008876.375
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.08163265138864517
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.07563025504350662
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.12725089490413666
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.21968787908554077
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.23649460077285767
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.3169267773628235
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.45858344435691833
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3949579894542694
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.38655462861061096
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.4741896688938141
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.44417765736579895
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5018007159233093
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5162065029144287
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.490996390581131
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.48499399423599243
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5402160882949829
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.6062424778938293
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6230491995811462
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.541416585445404
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.6038415431976318
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6554622054100037
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6542617082595825
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.6122449040412903
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6842737197875977
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6446578502655029
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.6122449040412903
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.6170468330383301
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6962785124778748
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6830732226371765
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6674669981002808
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.709483802318573
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.7022809386253357
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6782712936401367
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.7034813761711121
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6746698617935181
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6758703589439392
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.7154861688613892
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7046818733215332
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7118847370147705
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7250900268554688
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7082833051681519
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7250900268554688
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7298919558525085
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7430972456932068
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7154861688613892
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7070828080177307
+    },
+    {
+        "node": "node-5",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6926770806312561
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 18.106273651123047
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 87064.390625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 285194.03125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 251137.53125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 328954.5
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 366350.1875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 345333.46875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 491865.96875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 492886.3125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 472833.46875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 534518.5625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 615032.0625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 629419.3125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 986353.3125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 724790.0625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 864797.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 713302.4375
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 748112.8125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1080016.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 882844.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 936495.9375
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 929293.3125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1147835.125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 1008095.8125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1001912.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1054302.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1332696.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1506963.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1185007.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1455630.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1582685.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1246520.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1341824.125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1416659.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1464001.75
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1544135.0
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1588179.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1509897.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1494064.375
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1438377.125
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1601916.875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1795051.875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1752308.375
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1570225.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1446081.875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1463094.875
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1698057.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1810503.625
+    },
+    {
+        "node": "node-4",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2315923.25
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.10804321616888046
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.09723889827728271
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.1356542557477951
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.20408163964748383
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.25330132246017456
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.3445378243923187
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.4357742965221405
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.366146445274353
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.4093637466430664
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.45858344435691833
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.47539016604423523
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5030012130737305
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5330132246017456
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4897959232330322
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.4813925623893738
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.49939975142478943
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.6290516257286072
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6062424778938293
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.490996390581131
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5966386795043945
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6326530575752258
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6374549865722656
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5738295316696167
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6722689270973206
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6458583474159241
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5906362533569336
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5822328925132751
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6686674952507019
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6554622054100037
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.627851128578186
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6890756487846375
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6554622054100037
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6938775777816772
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6758703589439392
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6878751516342163
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6494597792625427
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.6962785124778748
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.6878751516342163
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7070828080177307
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.6854742169380188
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7034813761711121
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7515006065368652
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7442977428436279
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7310924530029297
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7178871631622314
+    },
+    {
+        "node": "node-4",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 18.245887756347656
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 94558.578125
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 281726.09375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 260671.40625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 339553.40625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 409266.15625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 321879.6875
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 495597.46875
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 495817.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 449419.90625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 469445.5625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 561390.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 706386.4375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 961760.5625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 684401.625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 841987.3125
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 767768.875
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 745885.9375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1085949.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 927036.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 1002997.5625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 1012910.9375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1099738.0
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 1040076.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1019685.0625
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1225646.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1459003.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1403416.75
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1233291.0
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1336162.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1425804.0
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1199625.125
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1214314.375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1417138.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1425828.125
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1542319.375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1646283.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1570900.375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1524040.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1446339.125
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1474585.375
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1656573.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1815382.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1794799.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1766701.5
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1819423.0
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1844294.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1898948.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2265361.25
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.09123649448156357
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.08523409068584442
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.1452580988407135
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.20288115739822388
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.23769508302211761
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.30372148752212524
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.433373361825943
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3709483742713928
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.3829531669616699
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.49939975142478943
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4789915978908539
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5258103013038635
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.4981992840766907
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4597839117050171
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.5090035796165466
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5306122303009033
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5930371880531311
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6194477677345276
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5066026449203491
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5798319578170776
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6086434721946716
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6146458387374878
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5822328925132751
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6386554837226868
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6614645719528198
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6290516257286072
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5762304663658142
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5882353186607361
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.65666264295578
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6818727254867554
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6506602764129639
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.691476583480835
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6758703589439392
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.7178871631622314
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6818727254867554
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6686674952507019
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6842737197875977
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6878751516342163
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7142857313156128
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7262905240058899
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7346938848495483
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7058823704719543
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7082833051681519
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7358943819999695
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7358943819999695
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.720288097858429
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7334933876991272
+    },
+    {
+        "node": "node-8",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6926770806312561
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.808856964111328
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 88935.65625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 291779.71875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 268805.96875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 343518.875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 401938.65625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 338374.96875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 518991.21875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 484218.34375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 461436.28125
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 518659.21875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 608094.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 701625.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 1073947.0
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 722080.0625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 835923.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 778519.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 786482.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1058736.0
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 1012109.9375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 1134475.875
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 1059877.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1172163.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 1115115.125
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1122854.75
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1318164.0
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1381591.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1520060.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1278333.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1381315.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1568801.75
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1329364.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1504037.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1559921.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1509217.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1652338.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1856071.125
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1705302.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1716979.375
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1746036.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1743795.125
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1799971.0
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1906944.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1984753.125
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1801871.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1890635.625
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 2236478.5
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 2205964.25
+    },
+    {
+        "node": "node-9",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2211746.75
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.08283313363790512
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.09603841602802277
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.1428571492433548
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.19447779655456543
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.2448979616165161
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.33253300189971924
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.4429771900177002
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3589435815811157
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.38895559310913086
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.44777911901474
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.462184876203537
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5090035796165466
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5030012130737305
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4525810182094574
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.4741896688938141
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5246098637580872
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.6182472705841064
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6254501938819885
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5150060057640076
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5774309635162354
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6026410460472107
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6038415431976318
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.581032395362854
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6230491995811462
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6422569155693054
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6074429750442505
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5942376852035522
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5846338272094727
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.680672287940979
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6482592821121216
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6398559212684631
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.7022809386253357
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6794717907905579
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.680672287940979
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6794717907905579
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6578631401062012
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6902760863304138
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6578631401062012
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.6986794471740723
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.709483802318573
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7046818733215332
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7010804414749146
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.6938775777816772
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7238895297050476
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7358943819999695
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7070828080177307
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7190876603126526
+    },
+    {
+        "node": "node-9",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6890756487846375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 18.334823608398438
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 93239.1484375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 278958.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 246659.484375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 340030.71875
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 432812.28125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 334954.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 522596.90625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 500924.5
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 438910.28125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 502417.40625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 571348.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 614845.0625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 962975.8125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 719427.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 870457.3125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 815220.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 754383.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1041260.5625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 911530.4375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 918114.75
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 914121.9375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1039543.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 911678.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 1033009.1875
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1081531.125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1386901.875
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1342064.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1135005.125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1392525.25
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1571699.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1384812.75
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1395100.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1595842.5
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1530426.375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1673924.5
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1695427.875
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1726176.375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1556713.375
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1452124.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1502864.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1513034.125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1664750.125
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1573191.75
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1500040.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1545122.25
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1886464.0
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1820637.625
+    },
+    {
+        "node": "node-10",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 2219064.75
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.11524609476327896
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.08283313363790512
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.13685473799705505
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.21728691458702087
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.25810325145721436
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.30372148752212524
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.44657862186431885
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.3781512677669525
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.39855942130088806
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.4645858407020569
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4597839117050171
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5090035796165466
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.529411792755127
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.4921968877315521
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.4885954260826111
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.5042017102241516
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5870348215103149
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6206482648849487
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.5258103013038635
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.5858343243598938
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6302521228790283
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.627851128578186
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.6026410460472107
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6710684299468994
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.662665069103241
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6482592821121216
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.599039614200592
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.6062424778938293
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6842737197875977
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6686674952507019
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6374549865722656
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6686674952507019
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.65666264295578
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6578631401062012
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6950780153274536
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6722689270973206
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6854742169380188
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.6866746544837952
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.691476583480835
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7046818733215332
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.691476583480835
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7070828080177307
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.6854742169380188
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7226890921592712
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7503001093864441
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7478991746902466
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7286914587020874
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7262905240058899
+    },
+    {
+        "node": "node-10",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.6854742169380188
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 0,
+        "value": 17.991968154907227
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 1,
+        "value": 92117.0625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 2,
+        "value": 289530.03125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 3,
+        "value": 263963.96875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 4,
+        "value": 315894.84375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 5,
+        "value": 393970.25
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 6,
+        "value": 319946.15625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 7,
+        "value": 497871.125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 8,
+        "value": 514765.09375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 9,
+        "value": 443897.9375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 10,
+        "value": 527826.4375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 11,
+        "value": 574090.1875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 12,
+        "value": 688012.9375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 13,
+        "value": 967956.3125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 14,
+        "value": 735606.1875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 15,
+        "value": 814125.875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 16,
+        "value": 811611.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 17,
+        "value": 733717.6875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 18,
+        "value": 1101516.5
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 19,
+        "value": 950355.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 20,
+        "value": 1043242.1875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 21,
+        "value": 997799.5625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 22,
+        "value": 1053300.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 23,
+        "value": 977197.875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 24,
+        "value": 960351.5625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 25,
+        "value": 1140160.125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 26,
+        "value": 1309024.25
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 27,
+        "value": 1368419.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 28,
+        "value": 1168787.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 29,
+        "value": 1279806.875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 30,
+        "value": 1423729.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 31,
+        "value": 1158992.75
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 32,
+        "value": 1315846.625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 33,
+        "value": 1419822.125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 34,
+        "value": 1487710.75
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 35,
+        "value": 1549539.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 36,
+        "value": 1646056.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 37,
+        "value": 1385119.625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 38,
+        "value": 1364317.625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 39,
+        "value": 1312025.375
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 40,
+        "value": 1383770.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 41,
+        "value": 1434163.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 42,
+        "value": 1593891.625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 43,
+        "value": 1448268.5
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 44,
+        "value": 1444108.5
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 45,
+        "value": 1573283.625
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 46,
+        "value": 1784688.0
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 47,
+        "value": 1806127.125
+    },
+    {
+        "node": "node-7",
+        "metric": "test_loss",
+        "round": 48,
+        "value": 1847790.5
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 0,
+        "value": 0.08763505518436432
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 1,
+        "value": 0.07322929054498672
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 2,
+        "value": 0.13925570249557495
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 3,
+        "value": 0.18607443571090698
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 4,
+        "value": 0.2713085114955902
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 5,
+        "value": 0.2881152331829071
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 6,
+        "value": 0.45858344435691833
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 7,
+        "value": 0.36734694242477417
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 8,
+        "value": 0.3589435815811157
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 9,
+        "value": 0.44897958636283875
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 10,
+        "value": 0.4645858407020569
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 11,
+        "value": 0.5390155911445618
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 12,
+        "value": 0.5090035796165466
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 13,
+        "value": 0.5150060057640076
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 14,
+        "value": 0.48499399423599243
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 15,
+        "value": 0.4957983195781708
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 16,
+        "value": 0.5882353186607361
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 17,
+        "value": 0.6182472705841064
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 18,
+        "value": 0.4885954260826111
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 19,
+        "value": 0.581032395362854
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 20,
+        "value": 0.6182472705841064
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 21,
+        "value": 0.6242496967315674
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 22,
+        "value": 0.5846338272094727
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 23,
+        "value": 0.6398559212684631
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 24,
+        "value": 0.6578631401062012
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 25,
+        "value": 0.6434574127197266
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 26,
+        "value": 0.5966386795043945
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 27,
+        "value": 0.5930371880531311
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 28,
+        "value": 0.6602641344070435
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 29,
+        "value": 0.6422569155693054
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 30,
+        "value": 0.6242496967315674
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 31,
+        "value": 0.6758703589439392
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 32,
+        "value": 0.6554622054100037
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 33,
+        "value": 0.6662665009498596
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 34,
+        "value": 0.6878751516342163
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 35,
+        "value": 0.6710684299468994
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 36,
+        "value": 0.6770708560943604
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 37,
+        "value": 0.7214885950088501
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 38,
+        "value": 0.6974790096282959
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 39,
+        "value": 0.7406962513923645
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 40,
+        "value": 0.7442977428436279
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 41,
+        "value": 0.7334933876991272
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 42,
+        "value": 0.7022809386253357
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 43,
+        "value": 0.7334933876991272
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 44,
+        "value": 0.7370948195457458
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 45,
+        "value": 0.7430972456932068
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 46,
+        "value": 0.7130852341651917
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 47,
+        "value": 0.7190876603126526
+    },
+    {
+        "node": "node-7",
+        "metric": "test_metric",
+        "round": 48,
+        "value": 0.709483802318573
+    }
+]

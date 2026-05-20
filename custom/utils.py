@@ -6,7 +6,7 @@ from p2pfl.utils.utils import set_standalone_settings
 
 
 def dp_settings() -> None:
-    set_standalone_settings()
+    my_settings()
 
     Settings.training.VOTE_TIMEOUT = 300
     Settings.training.AGGREGATION_TIMEOUT = 300

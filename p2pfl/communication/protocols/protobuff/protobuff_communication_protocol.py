@@ -71,7 +71,7 @@ class ProtobuffCommunicationProtocol(CommunicationProtocol):
         # (addr) Super
         CommunicationProtocol.__init__(self)
         # Neighbors
-        self._neighbors = Neighbors(self.bluid_client)
+        self._neighbors: Neighbors = Neighbors(self.bluid_client)
         # Gossip
         self._gossiper = Gossiper(self._neighbors, self.build_msg)
         # GRPC

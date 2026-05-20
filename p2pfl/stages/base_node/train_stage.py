@@ -25,6 +25,7 @@ import numpy as np
 from p2pfl.communication.commands.message.metrics_command import MetricsCommand
 from p2pfl.communication.commands.message.models_agregated_command import ModelsAggregatedCommand
 from p2pfl.communication.commands.message.models_ready_command import ModelsReadyCommand
+from p2pfl.communication.commands.weights.full_model_command import FullModelCommand
 from p2pfl.communication.commands.weights.partial_model_command import PartialModelCommand
 from p2pfl.communication.protocols.communication_protocol import CommunicationProtocol
 from p2pfl.learning.aggregators.aggregator import Aggregator, NoModelsToAggregateError
@@ -32,6 +33,7 @@ from p2pfl.learning.frameworks.learner import Learner
 from p2pfl.learning.frameworks.p2pfl_model import P2PFLModel
 from p2pfl.management.logger import logger
 from p2pfl.node_state import NodeState
+from p2pfl.settings import Settings
 from p2pfl.stages.stage import EarlyStopException, Stage, check_early_stop
 from p2pfl.stages.stage_factory import StageFactory
 
@@ -65,6 +67,8 @@ class TrainStage(Stage):
             raise Exception("Invalid parameters on TrainStage.")
         
         use_dual = True if evaluator and allocator and noise_selector else False
+        is_cfl = getattr(state, "is_cfl", False)
+        is_server = getattr(state, "is_server", False)
 
         try:
             if use_dual: 
@@ -73,7 +77,10 @@ class TrainStage(Stage):
             check_early_stop(state)
 
             # Set Models To Aggregate
-            aggregator.set_nodes_to_aggregate(state.train_set)
+            if not is_cfl:
+                aggregator.set_nodes_to_aggregate(state.train_set)
+            elif is_server:
+                aggregator.set_nodes_to_aggregate(state.train_set)
 
             check_early_stop(state)
         
@@ -173,20 +180,66 @@ class TrainStage(Stage):
                     round=state.round,
                 )
             )
-            TrainStage.__gossip_model_aggregation(state, communication_protocol, aggregator)
+            
+            if not is_cfl:
+                TrainStage.__gossip_model_aggregation(state, communication_protocol, aggregator)
 
             check_early_stop(state)
 
             # Set aggregated model
-            agg_model = aggregator.wait_and_get_aggregation()
-            learner.set_model(agg_model)
+            if not is_cfl:
+                agg_model = aggregator.wait_and_get_aggregation()
+                learner.set_model(agg_model)
+
+            else:
+                if is_server:
+                    agg_model = aggregator.wait_and_get_aggregation()
+                    learner.set_model(agg_model)
+
+                    # broadcast global model xuống client
+                    communication_protocol.broadcast(
+                        communication_protocol.build_weights(
+                            FullModelCommand.get_name(),
+                            state.round,
+                            agg_model.encode_parameters(),
+                        )
+                    )
+                else:
+                    logger.info(state.addr, "📤 Sending model to server...")
+
+                    communication_protocol.broadcast(
+                        communication_protocol.build_weights(
+                            PartialModelCommand.get_name(),
+                            state.round,
+                            learner.get_model().encode_parameters(),
+                            [state.addr],
+                            learner.get_model().get_num_samples(),
+                        )
+                    )
+                    
+                    # client KHÔNG aggregate, chỉ chờ model từ server
+                    logger.info(state.addr, "⏳ Waiting global model from server...")
+
+                    state.aggregated_model_event.clear()
+
+                    received = state.aggregated_model_event.wait(timeout=Settings.training.AGGREGATION_TIMEOUT)
+
+                    if not received:
+                        logger.warning(state.addr, "⏰ Timeout waiting global model!")
+                    else:
+                        logger.info(state.addr, "✅ Received global model from server.")
             
             # Global gradient
             new_global_weights = learner.get_model().get_parameters()
             TrainStage.__save_global_gradient(state, last_global_weights, new_global_weights, learner)
 
             # Share that aggregation is done
-            communication_protocol.broadcast(communication_protocol.build_msg(ModelsReadyCommand.get_name(), [], round=state.round))
+            if not is_cfl or is_server:
+                communication_protocol.broadcast(
+                    communication_protocol.build_msg(
+                        ModelsReadyCommand.get_name(), [], round=state.round
+                    )
+                )
 
             # Next stage
             return StageFactory.get_stage("GossipModelStage")

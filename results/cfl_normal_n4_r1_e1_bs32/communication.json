@@ -1,0 +1,30 @@
+[
+    {
+        "node": "node-1",
+        "bytes_sent": 1888349,
+        "msgs_sent": 102,
+        "bytes_received": 3771272,
+        "msgs_received": 119
+    },
+    {
+        "node": "node-0",
+        "bytes_sent": 11313807,
+        "msgs_sent": 357,
+        "bytes_received": 3770633,
+        "msgs_received": 106
+    },
+    {
+        "node": "node-2",
+        "bytes_sent": 947262,
+        "msgs_sent": 101,
+        "bytes_received": 3771267,
+        "msgs_received": 119
+    },
+    {
+        "node": "node-3",
+        "bytes_sent": 947262,
+        "msgs_sent": 101,
+        "bytes_received": 3771268,
+        "msgs_received": 119
+    }
+]

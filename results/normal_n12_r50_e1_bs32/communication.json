@@ -1,0 +1,86 @@
+[
+    {
+        "node": "node-1",
+        "bytes_sent": 359740725,
+        "msgs_sent": 118443,
+        "bytes_received": 342861120,
+        "msgs_received": 17130
+    },
+    {
+        "node": "node-0",
+        "bytes_sent": 363120287,
+        "msgs_sent": 153316,
+        "bytes_received": 327805762,
+        "msgs_received": 17129
+    },
+    {
+        "node": "node-2",
+        "bytes_sent": 359532847,
+        "msgs_sent": 155624,
+        "bytes_received": 329682999,
+        "msgs_received": 17035
+    },
+    {
+        "node": "node-3",
+        "bytes_sent": 359477179,
+        "msgs_sent": 167690,
+        "bytes_received": 342857849,
+        "msgs_received": 17067
+    },
+    {
+        "node": "node-4",
+        "bytes_sent": 339015554,
+        "msgs_sent": 118087,
+        "bytes_received": 329683239,
+        "msgs_received": 17049
+    },
+    {
+        "node": "node-5",
+        "bytes_sent": 335305449,
+        "msgs_sent": 145588,
+        "bytes_received": 323094533,
+        "msgs_received": 17015
+    },
+    {
+        "node": "node-6",
+        "bytes_sent": 313533384,
+        "msgs_sent": 117193,
+        "bytes_received": 315567457,
+        "msgs_received": 17037
+    },
+    {
+        "node": "node-7",
+        "bytes_sent": 297329682,
+        "msgs_sent": 114235,
+        "bytes_received": 308977119,
+        "msgs_received": 16966
+    },
+    {
+        "node": "node-8",
+        "bytes_sent": 293813965,
+        "msgs_sent": 117685,
+        "bytes_received": 293921287,
+        "msgs_received": 16969
+    },
+    {
+        "node": "node-9",
+        "bytes_sent": 289113819,
+        "msgs_sent": 117705,
+        "bytes_received": 297687057,
+        "msgs_received": 17015
+    },
+    {
+        "node": "node-10",
+        "bytes_sent": 294684975,
+        "msgs_sent": 156764,
+        "bytes_received": 282626734,
+        "msgs_received": 17016
+    },
+    {
+        "node": "node-11",
+        "bytes_sent": 263785665,
+        "msgs_sent": 16544,
+        "bytes_received": 278830508,
+        "msgs_received": 16950
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "node": "node-1",
+        "bytes_sent": 94098700,
+        "msgs_sent": 14342,
+        "bytes_received": 95097814,
+        "msgs_received": 15003
+    },
+    {
+        "node": "node-0",
+        "bytes_sent": 1058252256,
+        "msgs_sent": 165252,
+        "bytes_received": 565611606,
+        "msgs_received": 15345
+    },
+    {
+        "node": "node-2",
+        "bytes_sent": 47985437,
+        "msgs_sent": 14293,
+        "bytes_received": 96040077,
+        "msgs_received": 15031
+    },
+    {
+        "node": "node-3",
+        "bytes_sent": 47985437,
+        "msgs_sent": 14293,
+        "bytes_received": 96981570,
+        "msgs_received": 15042
+    },
+    {
+        "node": "node-4",
+        "bytes_sent": 48926524,
+        "msgs_sent": 14294,
+        "bytes_received": 96039094,
+        "msgs_received": 15007
+    },
+    {
+        "node": "node-5",
+        "bytes_sent": 47985437,
+        "msgs_sent": 14293,
+        "bytes_received": 94156668,
+        "msgs_received": 15000
+    },
+    {
+        "node": "node-6",
+        "bytes_sent": 47985437,
+        "msgs_sent": 14293,
+        "bytes_received": 96980961,
+        "msgs_received": 15027
+    },
+    {
+        "node": "node-7",
+        "bytes_sent": 47985492,
+        "msgs_sent": 14294,
+        "bytes_received": 96040738,
+        "msgs_received": 15047
+    },
+    {
+        "node": "node-8",
+        "bytes_sent": 47985435,
+        "msgs_sent": 14293,
+        "bytes_received": 96980335,
+        "msgs_received": 15015
+    },
+    {
+        "node": "node-9",
+        "bytes_sent": 47980273,
+        "msgs_sent": 14293,
+        "bytes_received": 96981104,
+        "msgs_received": 15032
+    },
+    {
+        "node": "node-10",
+        "bytes_sent": 47876917,
+        "msgs_sent": 13003,
+        "bytes_received": 96036201,
+        "msgs_received": 15032
+    },
+    {
+        "node": "node-11",
+        "bytes_sent": 47142796,
+        "msgs_sent": 1391,
+        "bytes_received": 96949718,
+        "msgs_received": 15016
+    }
+]

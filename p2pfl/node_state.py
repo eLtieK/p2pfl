@@ -45,7 +45,7 @@ class NodeState:
 
     """
 
-    def __init__(self, addr: str) -> None:
+    def __init__(self, addr: str, **kwargs) -> None:
         """Initialize the node state."""
         self.addr = addr
         self.status = "Idle"
@@ -94,6 +94,10 @@ class NodeState:
         
         self.score_lock = threading.Lock()
         
+        # ===== MODE CONFIG =====
+        self.is_cfl = kwargs.get("is_cfl", False)
+        self.is_server = kwargs.get("is_server", False)
+            
     @property
     def round(self) -> int | None:
         """Get the round."""
@@ -167,9 +171,13 @@ class NodeState:
         logger.experiment_started(self.addr, self.experiment)  # TODO: Improve changes on the experiment
 
     def clear(self) -> None:
-        """Clear the state."""
-        type(self).__init__(self, self.addr)
-
+        type(self).__init__(
+            self,
+            self.addr,
+            is_cfl=self.is_cfl,
+            is_server=self.is_server
+        )
+        
     def __str__(self) -> str:
         """Return a String representation of the node state."""
         return (

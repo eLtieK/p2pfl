@@ -82,12 +82,36 @@ class StartLearningStage(Stage):
         # Wait and gossip model inicialization
         logger.info(state.addr, "⏳ Waiting initialization.")
         state.model_initialized_lock.acquire()
-        # Communicate Initialization
-        communication_protocol.broadcast(communication_protocol.build_msg(ModelInitializedCommand.get_name()))
-        logger.info(state.addr, "🗣️ Gossiping model initialization.")
-        time.sleep(1.0)
-        StartLearningStage.__gossip_model(state, communication_protocol, learner)
+        
+       # Communicate Initialization
+        communication_protocol.broadcast(
+            communication_protocol.build_msg(ModelInitializedCommand.get_name())
+        )
 
+        # ===== MODE SWITCH =====
+        if not state.is_cfl:
+            # ===== P2P =====
+            logger.info(state.addr, "🗣️ Gossiping model initialization.")
+            time.sleep(1.0)
+            StartLearningStage.__gossip_model(state, communication_protocol, learner)
+
+        else:
+            # ===== CFL =====
+            if state.is_server:
+                logger.info(state.addr, "📡 Server broadcasting initial model...")
+                
+                encoded_model = learner.get_model().encode_parameters()
+
+                communication_protocol.broadcast(
+                    communication_protocol.build_weights(
+                        InitModelCommand.get_name(),
+                        state.round,
+                        encoded_model
+                    )
+                )
+            else:
+                logger.info(state.addr, "📥 Client waiting for initial model...")
+                
         # Wait to guarantee new connection heartbeats convergence
         wait_time = Settings.heartbeat.WAIT_CONVERGENCE - (time.time() - begin)
         if wait_time > 0:

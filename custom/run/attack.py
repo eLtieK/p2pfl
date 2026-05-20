@@ -10,7 +10,7 @@ from p2pfl.learning.dataset.p2pfl_dataset import P2PFLDataset
 # ========================
 # CONFIG
 # ========================
-MODEL_PATH = "results/dual_dp_n12_r50_e1_bs32_clip_norm10000_delta1e-05_scale_modestandard_alpha0.5_beta0.5_gamma1.0_k5_epsilon_base50_epsilon_min20_lambda_protection1_nu1/final_model.pt"
+MODEL_PATH = "results/dp_n12_r50_e1_bs32_clip_norm10000_epsilon10.0_delta1e-05_noise_typegaussian/final_model.pt"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 ATTACK_DIR = "attack_results"
 NUM_SAMPLES = 50

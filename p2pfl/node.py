@@ -57,6 +57,7 @@ from p2pfl.stages.workflows import LearningWorkflow
 from custom.command.node_score_command import NodeScoreCommand
 from custom.component.dual_dimensional_evaluation import DualDimensionalEvaluator
 from custom.component.privacy_budget_allocator import PrivacyBudgetAllocator
+from custom.component.resource_monitor import ResourceMonitor
 
 # Disbalbe grpc log (pytorch causes warnings)
 if logger.get_level_name(logger.get_level()) != "DEBUG":
@@ -146,10 +147,17 @@ class Node:
         if attack is not None:
             self.attack = attack
             self.attack.set_addr(self.addr)
+            
+        self.monitor: ResourceMonitor = ResourceMonitor()
+        self.monitor.set_addr(self.addr)
 
         # State
         self.__running = False
-        self.state = NodeState(self.addr)
+        self.state = NodeState(
+            self.addr,
+            is_cfl=kwargs.get("is_cfl", False),
+            is_server=kwargs.get("is_server", False)
+        )
         
         # Set state and attack in aggregator if it is FedAvgWithGrad
         if isinstance(self.aggregator, FedAvgWithGrad):
@@ -288,6 +296,11 @@ class Node:
             self._communication_protocol.stop()
             # Set not running
             self.__running = False
+            
+            self.monitor.stop()
+            stats = self.monitor.get_stats()
+            logger.info(self.addr, f"📊 Resource stats: {stats}")
+            
             # State
             self.state.clear()
             # Unregister node
@@ -438,6 +451,10 @@ class Node:
     def __start_learning(self, rounds: int, epochs: int, trainset_size: int, experiment_name: str) -> None:
         # Set seed
         try:
+            
+            self.monitor.reset()
+            self.monitor.start()
+        
             # Initialize experiment with metadata
             self.state.set_experiment(
                 experiment_name,
